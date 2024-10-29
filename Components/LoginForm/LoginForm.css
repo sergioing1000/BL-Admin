@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Pentagon';
+    src: url('../../assets/fonts/Pentagon.ttf') format('opentype');
+}
+
+.TitleText{
+  font-family: 'Pentagon', sans-serif;  
+  letter-spacing: 4px;
+
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  font-size: 110px;
+  color: #404854;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f0;
+  border: 1px solid #8b572a; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  color: #5d4037; 
+  margin-bottom: 5px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #b47d57; 
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #8b572a; 
+  outline: none;
+  box-shadow: 0 0 5px rgba(139, 87, 42, 0.3); 
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8b572a; 
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6f4422; 
+}
+
+button:active {
+  background-color: #4e3115; 
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(111, 68, 34, 0.4); 
+}
